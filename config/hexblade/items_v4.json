@@ -1,0 +1,721 @@
+{
+  "weapons": {
+    "voidforge": {
+      "attack_damage": 0.0,
+      "attack_speed": -2.4,
+      "attributes": [
+        {
+          "id": "extraspellattributes:converttofrost",
+          "value": 1.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "id": "extraspellattributes:converttoarcane",
+          "value": 1.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "id": "extraspellattributes:converttofire",
+          "value": 1.0,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    },
+    "starforge": {
+      "attack_damage": 9.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 4.0,
+          "operation": "ADD_VALUE"
+        },
+        {
+          "id": "spell_power:arcane",
+          "value": 4.0,
+          "operation": "ADD_VALUE"
+        },
+        {
+          "id": "spell_power:fire",
+          "value": 4.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    }
+  },
+  "armor_sets": {
+    "blazing": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:critical_chance",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:haste",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "spell_power:fire",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "spell_power:fire",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:fire",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    },
+    "ashherald": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttofire",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 7,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttofire",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 1.0,
+            "operation": "ADD_VALUE"
+          },
+          {
+            "id": "extraspellattributes:converttofire",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttofire",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    },
+    "arcaneherald": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttoarcane",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 7,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttoarcane",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttoarcane",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttoarcane",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    },
+    "frozen": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:critical_chance",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:critical_damage",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    },
+    "gleaming": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:critical_damage",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:haste",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "spell_power:arcane",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "spell_power:arcane",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:arcane",
+            "value": 0.2,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 2.5,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    },
+    "magus": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:arcane",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:fire",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 4,
+        "attributes": [
+          {
+            "id": "spell_power:arcane",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:fire",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "spell_power:arcane",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:fire",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "spell_power:arcane",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "spell_power:fire",
+            "value": 0.3,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    },
+    "frostherald": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttofrost",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 7,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttofrost",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttofrost",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "extraspellattributes:converttofrost",
+            "value": 0.12,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:converttoheal",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "id": "extraspellattributes:reabsorption",
+            "value": 4.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    }
+  }
+}

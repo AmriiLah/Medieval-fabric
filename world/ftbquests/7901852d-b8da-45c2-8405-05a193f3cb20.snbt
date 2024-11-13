@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "7901852db8da45c2840505a193f3cb20"
+	name: "AmriiCuy#7901852d"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		54C66C9A25FF8132: 1
+	}
+	started: {
+		6AA8301C5B7654F6: 1731459373258L
+		3DABEDC35E8F22EA: 1731459373258L
+		0000000000000001: 1731459373258L
+		54C66C9A25FF8132: 1731459373258L
+	}
+	completed: {
+		6AA8301C5B7654F6: 1731459373270L
+		54C66C9A25FF8132: 1731459373270L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

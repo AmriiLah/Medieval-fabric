@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "overrides": {
+    "jmi": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "spellbladenext": {
+      "-depends": {
+        "spell_engine": "IGNORED"
+      }
+    },
+    "mediumcore": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "tradingpost": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "armoroftheages": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    }
+  }
+}

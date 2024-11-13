@@ -1,0 +1,9 @@
+{
+  "armorPointsPPConfig": {
+    "overheatingTextColor": 16753920
+  },
+  "immersiveWeatheringConfig": {
+    "freezingFromIcicleFall": -3000,
+    "freezingFromEatingIcicle": -500
+  }
+}
