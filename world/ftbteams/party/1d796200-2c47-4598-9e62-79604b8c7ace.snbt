@@ -1,0 +1,36 @@
+{
+	id: "1d796200-2c47-4598-9e62-79604b8c7ace"
+	type: "party"
+	owner: "af806926-25b0-3410-b2d5-13268263a588"
+	ranks: {
+		4018214c-adcc-3565-b6dd-26fc0e99cbe6: "member"
+		c8d0a09f-cb12-3d63-a61e-ad0f4449412b: "member"
+		af806926-25b0-3410-b2d5-13268263a588: "owner"
+	}
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 1b
+		"ftbchunks:block_edit_and_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+		"ftbteams:display_name": "Coca-Cola"
+		"ftbteams:description": "jancukkkk"
+		"ftbteams:color": "#5978FF"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1731535342562L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"AmriiCuy\"],\"color\":\"yellow\"}" }
+		{ from: "af806926-25b0-3410-b2d5-13268263a588", date: 1731535490780L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"mrapn\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1731535494586L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"mrapn\"],\"color\":\"green\"}" }
+		{ from: "af806926-25b0-3410-b2d5-13268263a588", date: 1731629905653L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"Hitam\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1731629910384L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"Hitam\"],\"color\":\"green\"}" }
+	]
+	extra: { }
+}

@@ -1,0 +1,18 @@
+[23:25:47.685] [INFO]: Loading config 'startup.json'.inecraftFormatting
+[23:25:47.704] [INFO]: Loaded plugins: almostunified:fabric, almostunified:commoninecraftFormatting
+[23:26:12.956] [WARN]: Reload detected. Reconstructing runtime.inecraftFormatting
+[23:26:12.958] [INFO]: Loading config 'debug.json'.inecraftFormatting
+[23:26:12.961] [INFO]: Loading config 'placeholders.json'.inecraftFormatting
+[23:26:12.964] [INFO]: Loading config 'tags.json'.inecraftFormatting
+[23:26:12.997] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/lapis' -> [deeperdarker:gloomslate_lapis_ore, natures_spirit:chert_lapis_ore, deeperdarker:sculk_stone_lapis_ore]inecraftFormatting
+[23:26:12.997] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/emerald' -> [deeperdarker:sculk_stone_emerald_ore, deeperdarker:gloomslate_emerald_ore, natures_spirit:chert_emerald_ore]inecraftFormatting
+[23:26:12.998] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/iron' -> [betternether:cincinnasite_ingot, betterend:thallasium_ingot]inecraftFormatting
+[23:26:12.998] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/gold' -> [natures_spirit:chert_gold_ore, deeperdarker:gloomslate_gold_ore, deeperdarker:sculk_stone_gold_ore]inecraftFormatting
+[23:26:12.998] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/iron' -> [natures_spirit:chert_iron_ore, deeperdarker:gloomslate_iron_ore, deeperdarker:sculk_stone_iron_ore]inecraftFormatting
+[23:26:12.999] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/diamond' -> [deeperdarker:sculk_stone_diamond_ore, deeperdarker:gloomslate_diamond_ore, natures_spirit:chert_diamond_ore]inecraftFormatting
+[23:26:12.999] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/copper' -> [deeperdarker:sculk_stone_copper_ore, natures_spirit:chert_copper_ore, deeperdarker:gloomslate_copper_ore]inecraftFormatting
+[23:26:14.912] [INFO]: Loading config 'duplicates.json'.inecraftFormatting
+[23:26:14.917] [INFO]: Recipe count: 8274inecraftFormatting
+[23:26:16.277] [INFO]: Recipe count afterwards: 8221 (done in 1.359 s)inecraftFormatting
+[23:26:17.452] [ERROR]: The following recipes were unified and threw exceptions when being loaded: [create:crushing/gloomslate_emerald_ore, create:crushing/sculk_stone_iron_ore, create:crushing/sculk_stone_emerald_ore, create:crushing/sculk_stone_gold_ore, create:crushing/gloomslate_iron_ore, witcher_rpg:silver_ingot_blasting, create:crushing/sculk_stone_lapis_ore, create:crushing/gloomslate_lapis_ore, create:crushing/gloomslate_gold_ore, create:crushing/gloomslate_diamond_ore, create:crushing/sculk_stone_diamond_ore, create:crushing/sculk_stone_copper_ore, create:crushing/gloomslate_copper_ore]inecraftFormatting
+[23:26:17.453] [WARN]: Try to add them to the ignore list and if the problem is gone, report it to the Almost Unified developers.inecraftFormatting
